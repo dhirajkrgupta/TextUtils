@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+body{
+  background-color: lightgray;
+}
+.clipboard{
+  padding: 0;
+  border: none;
+  outline: none;
+  width:26px;
+  height:26px;
+  background-color: transparent;
+}
+
+.clipboard .clip{
+  color: rgba(0, 0, 0);
+  background-color: transparent;
+  z-index: 1;
+}
+.clipboard .clip:hover{
+  opacity: .8;
+}
+.clipboard .clip:active{
+  opacity: 0;
+}
+
